@@ -1,0 +1,46 @@
+html,
+body, h2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(200,200,200);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tail {
+    width: 10px;
+    height: 10px;
+    background-color: #14ffeb;
+}
